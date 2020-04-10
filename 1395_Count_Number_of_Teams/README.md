@@ -1,6 +1,8 @@
-# Approach
+# Approach: Preprocessing
 
 ## Intuition
+
+If we first calculate the possible teams with `rating[i] < rating[j]` or `rating[i] > rating[j]`, we can count the number of teams under given conditions more efficiently.
 
 ## Algorithm
 
